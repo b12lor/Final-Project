@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #3A6FF8;        /* Soft royal blue */
+    --secondary-color: #28C76F;      /* Vibrant green */
+    --background-color: #d4d6d8;     /* Light grayish-blue */
+    --accent-color: #FF9F43;         /* Warm orange for highlights */
+    --text-color: #2F4858;           /* Deep slate for readability */
+}
+
+*{
+    border: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: var(--background-color);
+    
+    
+}
+
+.heading{
+    text-align: center;
+    padding-top: 1rem;
+}
+.body-section{
+    margin: 2rem;
+}
+#subheader{
+    display: flex;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.nav-section{
+    background-color: var(--secondary-color);
+    
+}
+.links{
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 0.75rem;
+}
+.project-header{
+    text-align: center;
+}
+.project-container{
+   display: grid; 
+   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
