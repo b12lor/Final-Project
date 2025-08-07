@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <section class="nav-section">
+    <div class="nav-container">
+    <nav class="main-nav">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact Me</a>
+    </div>
+    </nav>
+  </section> 
+
+  <div class="body-section">
+    <!-- About -->
+    <section id="about">
+        <h2 class="heading" id="header2">About Me</h2>
+        <div class="aboutme-container">
+      <img id='fpimage' src="img/Profile img.jpg" alt="Profile Photo" width="200">
+      <p>Hello I'm Jonathan, a passionate web developer with experience building websites and web applications using HTML, CSS, JavaScript, and more.</p>
+       </div>
+    </section>
+  
+    <!-- Skills -->
+    <section id="skills">
+      <h2 class="heading" id="header3">Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects-section" id="projects">
+      <h2 class="project-header" id="header4">Projects</h2>
+      <div class="project-container">
+
+        <a href="http://15.222.122.223/~Jonathan200594905/Php_files/Assignment_1/" class="project-link">
+          <div class="project-card">
+            <h3>Student Portal</h3>
+            <img src="img/First project image.jpg" alt="Student Portal">
+            <p>A website that lets the user add/update/view the students in the college</p>
+          </div>
+        </a>
+
+        <a href="http://127.0.0.1:3002/index.html"  class="project-link">
+          <div class="project-card">
+            <h3>Pizza Ordering website</h3>
+            <img src="img/third project image.jpg" alt="Pizza Ordering Website">
+            <p>A website that lets a user take an online order for a pizza</p>
+          </div>
+        </a>
+
+        <a href=""  class="project-link">
+          <div class="project-card">
+            <h3>Pattern Game</h3>
+            <img src="img/second project image.jpg" alt="Pattern Game">
+            <p>A guessing game that lets a user guess  only in 4 trials and returns the score of the user,after the game ends</p>
+          </div>
+        </a>
+
+        <a href="https://b12lor.github.io/Assignment-1/"  class="project-link">
+          <div class="project-card">
+            <h3>Css Zen Garden</h3>
+            <img src="img/fourth project image.jpg" alt="Css Zen Garden">
+            <p>A clean and elegant web design inspired by the CSS Zen Garden concept, showcasing how thoughtful CSS styling can completely transform a page’s look and feel without altering its HTML structure</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contactme-section" id="contact">
+      <div class="contactme-container">
+        <h2 class="heading">Contact Me</h2>
+        <div class="input-container">
+          <form action="mailto:ilorijonathan947@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-input">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" class="form-input">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" class="form-textarea"></textarea>
+
+            <input type="submit" value="Send" class="form-submit">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Links -->
+    <section >
+      <p>
+        <strong class="social-link-header">Social Links:</strong><br>
+        <a href="https://github.com/b12lor" class="social-link">GitHub</a><br>
+        <a href="https://linkedin.com/in/yourprofile" class="social-link">LinkedIn</a><br>
+        <a href="mailto:ilorijonathan947@gmail.com" class="social-link">Email</a>
+      </p>
+    </section>
+  </div>
+
+  <hr>
+  <footer>
+    <p>&copy; 2025 Lorris</p>
+  </footer>
+
+</body>
+</html>
